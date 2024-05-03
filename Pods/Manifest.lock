@@ -22,9 +22,9 @@ PODS:
     - SwiftyJSON (~> 4.0)
   - Kingfisher (7.11.0)
   - MBProgressHUD (1.2.0)
-  - ObjcExceptionBridging (1.0.1):
-    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
-  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjcExceptionBridging (7.1.3):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 7.1.3)
+  - ObjcExceptionBridging/ObjcExceptionBridging (7.1.3)
   - SwiftLint (0.54.0)
   - SwiftyJSON (4.3.0)
   - XCGLogger (7.0.1):
@@ -35,9 +35,9 @@ PODS:
 DEPENDENCIES:
   - AnyErrorKit (from `https://github.com/Nickelfox/AnyErrorKit.git`)
   - AppCenter
-  - FLLogs (from `https://github.com/Nickelfox/FLLogs.git`, branch `develop`)
+  - FLLogs (from `https://github.com/Nickelfox/FLLogs.git`)
   - FLUtilities (from `https://github.com/Nickelfox/FLUtilities.git`)
-  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`, branch `develop`)
+  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`)
   - Kingfisher
   - MBProgressHUD
   - SwiftLint
@@ -58,12 +58,10 @@ EXTERNAL SOURCES:
   AnyErrorKit:
     :git: https://github.com/Nickelfox/AnyErrorKit.git
   FLLogs:
-    :branch: develop
     :git: https://github.com/Nickelfox/FLLogs.git
   FLUtilities:
     :git: https://github.com/Nickelfox/FLUtilities.git
   FoxAPIKit:
-    :branch: develop
     :git: https://github.com/Nickelfox/FoxAPIKit.git
 
 CHECKOUT OPTIONS:
@@ -71,13 +69,13 @@ CHECKOUT OPTIONS:
     :commit: 8651c99e640860cf09b724222ac7c62c4c102afb
     :git: https://github.com/Nickelfox/AnyErrorKit.git
   FLLogs:
-    :commit: b4ac361af1e50970f9ee88a5fba8ee8e8496a99e
+    :commit: 6b6fccd7ad2e31fd4c9c970498f81a5bcfd3d634
     :git: https://github.com/Nickelfox/FLLogs.git
   FLUtilities:
     :commit: a16a0cba058a6f4e2fa62cfdcfd082394f67bd8d
     :git: https://github.com/Nickelfox/FLUtilities.git
   FoxAPIKit:
-    :commit: 7b599ee0d8ac8e0809a4a1209072e3dff2f1be2c
+    :commit: 74f3c5cb6e517c8f1bbe6908529783fefe9291d8
     :git: https://github.com/Nickelfox/FoxAPIKit.git
 
 SPEC CHECKSUMS:
@@ -90,11 +88,11 @@ SPEC CHECKSUMS:
   JSONParsing: 042f0e156c69002af7092084f3b9822867270b3d
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjcExceptionBridging: e93979cf8f71ac5eda79aafd995ebc6f6639d0ac
   SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   XCGLogger: 1943831ef907df55108b0b18657953f868de973b
 
-PODFILE CHECKSUM: 179e17c8bde15907ebfffe9dc53534abfa3f02f6
+PODFILE CHECKSUM: 85d76d90edf7b4f579165a3ba4aa4d759db1d985
 
 COCOAPODS: 1.15.2
