@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		23FAC33D4963E446D830AACA /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF244BFD639AF39D4D9FA008 /* Pods_NewsApp.framework */; };
 		2E254E5A2661B46D114A776C /* Pods_Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9691FCF1EB18DD738B70658 /* Pods_Model.framework */; };
+		7151279B2BE50660002806A4 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151279A2BE50660002806A4 /* NewsListViewController.swift */; };
+		7151279D2BE50671002806A4 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7151279C2BE50671002806A4 /* News.storyboard */; };
+		7151279F2BE50695002806A4 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151279E2BE50695002806A4 /* NewsListViewModel.swift */; };
+		715127A12BE50F17002806A4 /* NewListCelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715127A02BE50F17002806A4 /* NewListCelModel.swift */; };
+		715127A42BE50F5B002806A4 /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715127A22BE50F5B002806A4 /* NewsListCell.swift */; };
+		715127A52BE50F5B002806A4 /* NewsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715127A32BE50F5B002806A4 /* NewsListCell.xib */; };
 		8021132229D81CFF0061E89A /* UIViewController+Biometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021132129D81CFF0061E89A /* UIViewController+Biometric.swift */; };
 		8021132529D81D2F0061E89A /* BiometricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021132429D81D2F0061E89A /* BiometricManager.swift */; };
 		804714EF29D8089F00B0E30F /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804714EE29D8089F00B0E30F /* String+Helper.swift */; };
@@ -96,6 +102,12 @@
 		38289BFEA7A50EA97916F002 /* Pods-Model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Model.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Model/Pods-Model.debug.xcconfig"; sourceTree = "<group>"; };
 		40C6608BE3357626E64EBC76 /* Pods-Model.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Model.staging.xcconfig"; path = "Pods/Target Support Files/Pods-Model/Pods-Model.staging.xcconfig"; sourceTree = "<group>"; };
 		5EB24D852DCDE1EE24D817B0 /* Pods-NewsApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.staging.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.staging.xcconfig"; sourceTree = "<group>"; };
+		7151279A2BE50660002806A4 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		7151279C2BE50671002806A4 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		7151279E2BE50695002806A4 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		715127A02BE50F17002806A4 /* NewListCelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListCelModel.swift; sourceTree = "<group>"; };
+		715127A22BE50F5B002806A4 /* NewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCell.swift; sourceTree = "<group>"; };
+		715127A32BE50F5B002806A4 /* NewsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListCell.xib; sourceTree = "<group>"; };
 		8021132129D81CFF0061E89A /* UIViewController+Biometric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Biometric.swift"; sourceTree = "<group>"; };
 		8021132429D81D2F0061E89A /* BiometricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricManager.swift; sourceTree = "<group>"; };
 		804714EE29D8089F00B0E30F /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
@@ -221,6 +233,7 @@
 				71BE368A2BE4E81E005A79DA /* CelModels */,
 				71BE36892BE4E818005A79DA /* ViewModels */,
 				71BE36882BE4E812005A79DA /* Controllers */,
+				7151279C2BE50671002806A4 /* News.storyboard */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -228,6 +241,7 @@
 		71BE36882BE4E812005A79DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7151279A2BE50660002806A4 /* NewsListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -235,6 +249,7 @@
 		71BE36892BE4E818005A79DA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7151279E2BE50695002806A4 /* NewsListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -242,6 +257,7 @@
 		71BE368A2BE4E81E005A79DA /* CelModels */ = {
 			isa = PBXGroup;
 			children = (
+				715127A02BE50F17002806A4 /* NewListCelModel.swift */,
 			);
 			path = CelModels;
 			sourceTree = "<group>";
@@ -249,6 +265,8 @@
 		71BE368B2BE4E828005A79DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				715127A22BE50F5B002806A4 /* NewsListCell.swift */,
+				715127A32BE50F5B002806A4 /* NewsListCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -646,8 +664,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33D6E3521BFC21D00A3A174 /* LaunchScreen.storyboard in Resources */,
+				715127A52BE50F5B002806A4 /* NewsListCell.xib in Resources */,
 				E33D6E3421BFC21D00A3A174 /* Assets.xcassets in Resources */,
 				E33D6E3621BFC21D00A3A174 /* Main.storyboard in Resources */,
+				7151279D2BE50671002806A4 /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,14 +778,17 @@
 				8021132529D81D2F0061E89A /* BiometricManager.swift in Sources */,
 				E33D6E4921BFC21D00A3A174 /* Configuration.swift in Sources */,
 				8088675E29D822C6007C3CC8 /* LocalNotificationManager.swift in Sources */,
+				7151279F2BE50695002806A4 /* NewsListViewModel.swift in Sources */,
 				E33D6E5321BFC47900A3A174 /* ImageView.swift in Sources */,
 				8021132229D81CFF0061E89A /* UIViewController+Biometric.swift in Sources */,
 				E33D6E3A21BFC21D00A3A174 /* AppDelegate.swift in Sources */,
 				8047150029D810DF00B0E30F /* FontHelper.swift in Sources */,
+				7151279B2BE50660002806A4 /* NewsListViewController.swift in Sources */,
 				E33D6E4021BFC21D00A3A174 /* UIView+Helper.swift in Sources */,
 				E33D6E5B21BFC49600A3A174 /* CollectionViewCell.swift in Sources */,
 				E33D6E4621BFC21D00A3A174 /* Fonts.swift in Sources */,
 				804714F929D80F3000B0E30F /* OTPTextField.swift in Sources */,
+				715127A12BE50F17002806A4 /* NewListCelModel.swift in Sources */,
 				E33D6E4821BFC21D00A3A174 /* NavigationItem.swift in Sources */,
 				E33D6E3F21BFC21D00A3A174 /* UITextField+Helper.swift in Sources */,
 				E33D6E3C21BFC21D00A3A174 /* NavigationBar.swift in Sources */,
@@ -775,6 +798,7 @@
 				E33D6E4121BFC21D00A3A174 /* AppUtility.swift in Sources */,
 				804714FE29D8106A00B0E30F /* AppFont.swift in Sources */,
 				E33D6E3B21BFC21D00A3A174 /* UIViewController+Helper.swift in Sources */,
+				715127A42BE50F5B002806A4 /* NewsListCell.swift in Sources */,
 				E33D6E3721BFC21D00A3A174 /* Constants.swift in Sources */,
 				8088676029D822E2007C3CC8 /* LocalNotificationType.swift in Sources */,
 				E33D6E3E21BFC21D00A3A174 /* UITableViewCell+Helper.swift in Sources */,
