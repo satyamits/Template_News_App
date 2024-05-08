@@ -13,4 +13,8 @@ public struct APIConfig {
     // use this to add API keys and URLs
     
     public static let appStoreLookup = "https://itunes.apple.com/lookup?bundleId="
+    
+    public static let baseUrl = "https://api.dev.blueverse.foxlabs.in/api/v1"
+    
+    
 }
