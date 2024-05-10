@@ -18,4 +18,10 @@ public enum ModelRouter: BaseRouter {
             return URL(string: APIConfig.appStoreLookup + bundleId)!
         }
     }
+    public var machineUrl: URL {
+        switch self {
+        case .versionCheck(let bundleId):
+            return URL(string: APIConfig.appStoreLookup + bundleId)!
+        }
+    }
 }

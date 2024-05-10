@@ -16,5 +16,7 @@ public struct APIConfig {
     
     public static let baseUrl = "https://api.dev.blueverse.foxlabs.in/api/v1"
     
+
+    
     
 }

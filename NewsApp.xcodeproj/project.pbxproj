@@ -16,13 +16,21 @@
 		715127A12BE50F17002806A4 /* NewListCelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715127A02BE50F17002806A4 /* NewListCelModel.swift */; };
 		715127A42BE50F5B002806A4 /* NewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715127A22BE50F5B002806A4 /* NewsListCell.swift */; };
 		715127A52BE50F5B002806A4 /* NewsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715127A32BE50F5B002806A4 /* NewsListCell.xib */; };
-		71D540AF2BEB8922003222E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D540AA2BEB8922003222E8 /* Assets.xcassets */; };
+		715CCDEE2BECA73F0005D5B6 /* ViewMachineBalanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CCDEC2BECA73F0005D5B6 /* ViewMachineBalanceCell.swift */; };
+		715CCDEF2BECA73F0005D5B6 /* ViewMachineBalanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715CCDED2BECA73F0005D5B6 /* ViewMachineBalanceCell.xib */; };
+		716FC0E52BECD85200662AFD /* ViewMachineBalanceCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0E42BECD85200662AFD /* ViewMachineBalanceCellModel.swift */; };
+		716FC0E72BECDA1500662AFD /* ViewMachineBalanceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0E62BECDA1500662AFD /* ViewMachineBalanceListViewModel.swift */; };
+		716FC0EA2BECDCF700662AFD /* Machines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0E92BECDCF700662AFD /* Machines.swift */; };
+		716FC0EC2BECEFE900662AFD /* MachineRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0EB2BECEFE900662AFD /* MachineRouter.swift */; };
+		716FC0EE2BECF83700662AFD /* Machine+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0ED2BECF83700662AFD /* Machine+API.swift */; };
+		716FC0F02BECFB5800662AFD /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC0EF2BECFB5800662AFD /* SectionModel.swift */; };
 		71D540B02BEB8922003222E8 /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D540AB2BEB8922003222E8 /* Wallet.storyboard */; };
 		71D540B12BEB8922003222E8 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540AD2BEB8922003222E8 /* WalletViewController.swift */; };
 		71D540B32BEB9147003222E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540B22BEB9147003222E8 /* User.swift */; };
 		71D540B62BEB9343003222E8 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540B52BEB9343003222E8 /* UserRouter.swift */; };
 		71D540B92BEB992C003222E8 /* User+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540B82BEB992C003222E8 /* User+API.swift */; };
 		71D540BB2BEB9C5A003222E8 /* FoxAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540BA2BEB9C5A003222E8 /* FoxAPIClient.swift */; };
+		71D540BD2BECA20E003222E8 /* ViewMachineBalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D540BC2BECA20E003222E8 /* ViewMachineBalanceController.swift */; };
 		8021132229D81CFF0061E89A /* UIViewController+Biometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021132129D81CFF0061E89A /* UIViewController+Biometric.swift */; };
 		8021132529D81D2F0061E89A /* BiometricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8021132429D81D2F0061E89A /* BiometricManager.swift */; };
 		804714EF29D8089F00B0E30F /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804714EE29D8089F00B0E30F /* String+Helper.swift */; };
@@ -117,13 +125,21 @@
 		715127A02BE50F17002806A4 /* NewListCelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListCelModel.swift; sourceTree = "<group>"; };
 		715127A22BE50F5B002806A4 /* NewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListCell.swift; sourceTree = "<group>"; };
 		715127A32BE50F5B002806A4 /* NewsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListCell.xib; sourceTree = "<group>"; };
-		71D540AA2BEB8922003222E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715CCDEC2BECA73F0005D5B6 /* ViewMachineBalanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMachineBalanceCell.swift; sourceTree = "<group>"; };
+		715CCDED2BECA73F0005D5B6 /* ViewMachineBalanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewMachineBalanceCell.xib; sourceTree = "<group>"; };
+		716FC0E42BECD85200662AFD /* ViewMachineBalanceCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMachineBalanceCellModel.swift; sourceTree = "<group>"; };
+		716FC0E62BECDA1500662AFD /* ViewMachineBalanceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMachineBalanceListViewModel.swift; sourceTree = "<group>"; };
+		716FC0E92BECDCF700662AFD /* Machines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machines.swift; sourceTree = "<group>"; };
+		716FC0EB2BECEFE900662AFD /* MachineRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineRouter.swift; sourceTree = "<group>"; };
+		716FC0ED2BECF83700662AFD /* Machine+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Machine+API.swift"; sourceTree = "<group>"; };
+		716FC0EF2BECFB5800662AFD /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		71D540AB2BEB8922003222E8 /* Wallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wallet.storyboard; sourceTree = "<group>"; };
 		71D540AD2BEB8922003222E8 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		71D540B22BEB9147003222E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		71D540B52BEB9343003222E8 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
 		71D540B82BEB992C003222E8 /* User+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+API.swift"; sourceTree = "<group>"; };
 		71D540BA2BEB9C5A003222E8 /* FoxAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxAPIClient.swift; sourceTree = "<group>"; };
+		71D540BC2BECA20E003222E8 /* ViewMachineBalanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMachineBalanceController.swift; sourceTree = "<group>"; };
 		8021132129D81CFF0061E89A /* UIViewController+Biometric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Biometric.swift"; sourceTree = "<group>"; };
 		8021132429D81D2F0061E89A /* BiometricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricManager.swift; sourceTree = "<group>"; };
 		804714EE29D8089F00B0E30F /* String+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
@@ -229,6 +245,7 @@
 		7130F3F32BEB4A2A005FBD9F /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				716FC0E82BECDCA900662AFD /* Machine */,
 				71D540B42BEB92F5003222E8 /* User */,
 				7130F3F42BEB4A46005FBD9F /* News */,
 			);
@@ -241,6 +258,14 @@
 				7130F3F52BEB4A59005FBD9F /* Article.swift */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		716FC0E82BECDCA900662AFD /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				716FC0E92BECDCF700662AFD /* Machines.swift */,
+			);
+			path = Machine;
 			sourceTree = "<group>";
 		};
 		71BE36852BE4E805005A79DA /* UI */ = {
@@ -310,7 +335,6 @@
 			children = (
 				71D540A82BEB8922003222E8 /* ViewModels */,
 				71D540A92BEB8922003222E8 /* CellModels */,
-				71D540AA2BEB8922003222E8 /* Assets.xcassets */,
 				71D540AB2BEB8922003222E8 /* Wallet.storyboard */,
 				71D540AC2BEB8922003222E8 /* Controllers */,
 				71D540AE2BEB8922003222E8 /* Views */,
@@ -322,6 +346,8 @@
 		71D540A82BEB8922003222E8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				716FC0E62BECDA1500662AFD /* ViewMachineBalanceListViewModel.swift */,
+				716FC0EF2BECFB5800662AFD /* SectionModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -329,6 +355,7 @@
 		71D540A92BEB8922003222E8 /* CellModels */ = {
 			isa = PBXGroup;
 			children = (
+				716FC0E42BECD85200662AFD /* ViewMachineBalanceCellModel.swift */,
 			);
 			path = CellModels;
 			sourceTree = "<group>";
@@ -337,6 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				71D540AD2BEB8922003222E8 /* WalletViewController.swift */,
+				71D540BC2BECA20E003222E8 /* ViewMachineBalanceController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -344,6 +372,8 @@
 		71D540AE2BEB8922003222E8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				715CCDEC2BECA73F0005D5B6 /* ViewMachineBalanceCell.swift */,
+				715CCDED2BECA73F0005D5B6 /* ViewMachineBalanceCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -360,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				71D540B82BEB992C003222E8 /* User+API.swift */,
+				716FC0ED2BECF83700662AFD /* Machine+API.swift */,
 			);
 			path = APICalls;
 			sourceTree = "<group>";
@@ -427,6 +458,7 @@
 				809FD05D244AB629008515AC /* BaseRouter.swift */,
 				809FD064244ACC6C008515AC /* ModelRouter.swift */,
 				71D540B52BEB9343003222E8 /* UserRouter.swift */,
+				716FC0EB2BECEFE900662AFD /* MachineRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -662,7 +694,6 @@
 				E345391621B1203B0062D0A6 /* Frameworks */,
 				E345391721B1203B0062D0A6 /* Resources */,
 				E345393F21B120D80062D0A6 /* Embed Frameworks */,
-				80A4A83D22C60C990010617F /* SwiftLint Run Script */,
 				1A7B73779F56714D38EC0600 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -707,8 +738,9 @@
 		E345391121B1203B0062D0A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = Nickelfox;
 				TargetAttributes = {
 					80F266A1247CF07A002DE72E = {
@@ -760,12 +792,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715CCDEF2BECA73F0005D5B6 /* ViewMachineBalanceCell.xib in Resources */,
 				E33D6E3521BFC21D00A3A174 /* LaunchScreen.storyboard in Resources */,
 				71D540B02BEB8922003222E8 /* Wallet.storyboard in Resources */,
 				715127A52BE50F5B002806A4 /* NewsListCell.xib in Resources */,
 				E33D6E3421BFC21D00A3A174 /* Assets.xcassets in Resources */,
 				E33D6E3621BFC21D00A3A174 /* Main.storyboard in Resources */,
-				71D540AF2BEB8922003222E8 /* Assets.xcassets in Resources */,
 				7151279D2BE50671002806A4 /* News.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -814,24 +846,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		80A4A83D22C60C990010617F /* SwiftLint Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "SwiftLint Run Script";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		B815A350A32A8F42B657088A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -896,11 +910,16 @@
 				804714FC29D80F9B00B0E30F /* FontType.swift in Sources */,
 				804714EF29D8089F00B0E30F /* String+Helper.swift in Sources */,
 				E33D6E4121BFC21D00A3A174 /* AppUtility.swift in Sources */,
+				716FC0F02BECFB5800662AFD /* SectionModel.swift in Sources */,
+				716FC0E52BECD85200662AFD /* ViewMachineBalanceCellModel.swift in Sources */,
 				804714FE29D8106A00B0E30F /* AppFont.swift in Sources */,
 				E33D6E3B21BFC21D00A3A174 /* UIViewController+Helper.swift in Sources */,
 				715127A42BE50F5B002806A4 /* NewsListCell.swift in Sources */,
+				71D540BD2BECA20E003222E8 /* ViewMachineBalanceController.swift in Sources */,
 				E33D6E3721BFC21D00A3A174 /* Constants.swift in Sources */,
+				715CCDEE2BECA73F0005D5B6 /* ViewMachineBalanceCell.swift in Sources */,
 				8088676029D822E2007C3CC8 /* LocalNotificationType.swift in Sources */,
+				716FC0E72BECDA1500662AFD /* ViewMachineBalanceListViewModel.swift in Sources */,
 				E33D6E3E21BFC21D00A3A174 /* UITableViewCell+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -913,13 +932,16 @@
 				809FD063244ACA75008515AC /* VersionCheck.swift in Sources */,
 				71D540B92BEB992C003222E8 /* User+API.swift in Sources */,
 				809FD055244AB4E6008515AC /* APIConfig.swift in Sources */,
+				716FC0EC2BECEFE900662AFD /* MachineRouter.swift in Sources */,
 				809FD065244ACC6C008515AC /* ModelRouter.swift in Sources */,
 				7130F3F62BEB4A59005FBD9F /* Article.swift in Sources */,
 				809FD05E244AB629008515AC /* BaseRouter.swift in Sources */,
 				809FD057244AB52B008515AC /* AuthHeaders.swift in Sources */,
 				71D540B62BEB9343003222E8 /* UserRouter.swift in Sources */,
 				809FD05B244AB5BB008515AC /* NewsAppAPIClient.swift in Sources */,
+				716FC0EE2BECF83700662AFD /* Machine+API.swift in Sources */,
 				E33D6E0D21BFC08900A3A174 /* Logging.swift in Sources */,
+				716FC0EA2BECDCF700662AFD /* Machines.swift in Sources */,
 				809FD059244AB556008515AC /* ErrorResponse.swift in Sources */,
 				71D540B32BEB9147003222E8 /* User.swift in Sources */,
 				71D540BB2BEB9C5A003222E8 /* FoxAPIClient.swift in Sources */,
@@ -1001,6 +1023,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEV=1";
@@ -1056,6 +1079,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Model/Resources/Model-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1063,6 +1087,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1195,6 +1221,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1261,6 +1288,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
@@ -1339,6 +1367,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Model/Resources/Model-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1346,6 +1375,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1363,6 +1394,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Model/Resources/Model-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1370,6 +1402,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1417,6 +1451,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "STAGING=1";
@@ -1472,6 +1507,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Model/Resources/Model-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1479,6 +1515,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).Model";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

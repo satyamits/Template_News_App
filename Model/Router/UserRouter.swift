@@ -16,7 +16,6 @@ public enum UserRouter: BaseRouter {
     
     public var method: HTTPMethod {
         switch self {
-            
         case .login:
             return .post
         }
@@ -44,10 +43,5 @@ public enum UserRouter: BaseRouter {
         case .login:
             return "data"
         }
-    }
-    
-    public var baseUrl: URL {
-
-        return URL(string: APIConfig.baseUrl)!
     }
 }

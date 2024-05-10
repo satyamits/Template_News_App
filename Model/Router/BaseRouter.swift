@@ -30,7 +30,7 @@ extension BaseRouter {
     
     // use API url
     public var baseUrl: URL {
-        return URL(string: "")!
+        return URL(string: APIConfig.baseUrl)!
     }
     
     public var headers: [String: String] {

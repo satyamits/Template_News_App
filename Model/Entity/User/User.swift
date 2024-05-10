@@ -23,7 +23,7 @@ public final class User: JSONParseable {
     }
     
     public static func parse(_ json: JSON) throws -> User {
-        return User(token: json["user"]["token"]^!, isKycDone: json["user"]["isKycDone"]^!, role: json["user"]["role"]^!,
+        return User(token: json["user"]["token"]^!, isKycDone: json["user"]["isKycDone"]^!, role: json["user"]["role"]^!
                     
         )
     }

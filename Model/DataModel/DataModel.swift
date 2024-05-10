@@ -11,6 +11,7 @@ import Foundation
 private struct UserDefaultConfigKey {
     static let onboarded = "UserOnboardedKey"
     static let skippedVersion = "SkippedVersionKey"
+    static let authtoken = "AuthToken"
 }
 
 public class DataModel {
@@ -22,6 +23,9 @@ public class DataModel {
     
     @UserDefault(UserDefaultConfigKey.skippedVersion, "")
     public var skippedVersion: String
+    
+    @UserDefault(UserDefaultConfigKey.authtoken, "")
+    public var authtoken: String
     
 }
 
